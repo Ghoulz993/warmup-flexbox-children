@@ -1,0 +1,26 @@
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.sidebar-main-wrapper {
+    display:flex;
+    max-width:600px;
+    margin:auto;
+}
+
+.sidebar {
+    background-color:aquamarine;
+    flex-grow:1;
+    flex-shrink:1;
+    flex-basis:50%;
+    padding:20px;
+    margin-right:20px;
+}
+
+.main {
+    background-color:burlywood;
+    flex:1 1 50%;
+    padding:20px;
+}
